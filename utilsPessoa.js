@@ -44,7 +44,7 @@ function salvar() {
     } else {
         pessoa.create()
     }
-
+    window.history.back() 
 }
 // carrega dados do banco e cria/preenche tabela dinamicamente
 function carregarDados() {
