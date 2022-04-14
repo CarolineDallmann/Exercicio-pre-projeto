@@ -62,7 +62,7 @@ function criaTabela(dadosRecebidos) {
                 <td>${listaPessoas[indice].nome} </td>
                 <td>${listaPessoas[indice].dataNasc} </td>
                 <td>${listaPessoas[indice].cidadeRes} </td>
-                <td><span class="material-icons-outlined" onclick="window.location.href = 'cadastro.html?id=${listaPessoas[indice].id}'">edit</span> </td>
+                <td><span class="material-icons-outlined" onclick="window.location.href = 'cadastro.html?id=${listaPessoas[indice].id}'">edit</span></td>
                 <td><span class="material-icons-outlined" onclick="excluir(${listaPessoas[indice].id})">delete</span></td>
                 </tr>
                 <tr style="display: none;">

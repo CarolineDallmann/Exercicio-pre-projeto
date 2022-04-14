@@ -4,6 +4,7 @@
 
 .material-icons-outlined {
     padding: 5px;
+    cursor: pointer;
 }
 
 .inline {
@@ -51,5 +52,6 @@
     flex-wrap: nowrap;
     flex-direction: row;
 }
+
 
 
