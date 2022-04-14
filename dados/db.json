@@ -27,34 +27,6 @@
       "telefone": "(47)98863-5689",
       "email": "andre@gmail.com",
       "id": 2
-    },
-    {
-      "nome": "",
-      "dataNasc": "",
-      "cidadeNat": "",
-      "estadoNat": "",
-      "rua": "",
-      "numero": "",
-      "cep": "",
-      "cidadeRes": "",
-      "estadoRes": "",
-      "telefone": "",
-      "email": "",
-      "id": 3
-    },
-    {
-      "nome": "",
-      "dataNasc": "",
-      "cidadeNat": "",
-      "estadoNat": "",
-      "rua": "",
-      "numero": "",
-      "cep": "",
-      "cidadeRes": "",
-      "estadoRes": "",
-      "telefone": "",
-      "email": "",
-      "id": 4
     }
   ]
 }

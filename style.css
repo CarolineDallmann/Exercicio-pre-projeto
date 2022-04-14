@@ -1,0 +1,14 @@
+.material-icons-outlined{
+    padding: 5px;
+}
+
+.inline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.form-check{
+    margin: 5px 10px;
+    display: flex;
+    align-items: center
+}

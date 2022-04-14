@@ -10,19 +10,22 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="utilsPessoa.js" defer></script>
     <script src="classePessoa.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body onload="carregarDados()">
     <div class="container">
         <h2>Consulta</h2>
-        <table class="table">
+        <table class="table table-hover">
             <thead class="table-primary">
                 <tr>
+                    <th scope="col"></th>
                     <th scope="col">ID</th>
                     <th scope="col">Nome Completo</th>
                     <th scope="col">Nascimento</th>
                     <th scope="col">Cidade</th>
-                    <th scope="col">Ações</th>
+                    <th scope="col" colspan="2">Ações</th>
                 </tr>
             </thead>
             <tbody id="corpoTab">
