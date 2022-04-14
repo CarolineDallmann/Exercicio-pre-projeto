@@ -1,14 +1,55 @@
-.material-icons-outlined{
+/* * {
+    margin: 0 !important;
+} */
+
+.material-icons-outlined {
     padding: 5px;
 }
 
-.inline{
+.inline {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between
 }
-.form-check{
+
+.form-check {
     margin: 5px 10px;
     display: flex;
     align-items: center
 }
+
+.homePrincipal {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    background-image: linear-gradient(to top, #cad8f1 0%, #6991c7 100%);
+}
+
+.headTabela{
+    
+    background-image: linear-gradient(to top, #cad8f1ad 0%, #6992c7ad 100%);
+
+}
+.container{
+
+    border-radius: 7px;
+   padding: 10px;
+    margin: 10px;
+
+}
+.containerCadastro{
+    background-image: linear-gradient(to top, #cad8f1ad 0%, #6992c7ad 100%);
+
+}
+
+.bodyForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
