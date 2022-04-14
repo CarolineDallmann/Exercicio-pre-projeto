@@ -8,9 +8,11 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="utilsPessoa.js" defer></script>
+    <script src="classePessoa.js" defer></script>
 </head>
 
-<body>
+<body onload="capturaParametro()">
     <div class="container">
         <h2>Cadastro</h2>
         <form>
@@ -33,7 +35,7 @@
                 <label for="naturalEst">Estado</label>
                 <input type="text" class="form-control" id="naturalEst" placeholder="UF">
             </div>
-            
+
             <h5>Endereço</h5>
             <hr>
             <div class="form-group">
@@ -49,14 +51,14 @@
                 <input type="text" class="form-control" id="cep" placeholder="ex. 89080999">
             </div>
             <div class="form-group">
-                <label for="cidade">Cidade</label>
-                <input type="number" class="form-control" id="cidade" placeholder="ex. São Paulo">
+                <label for="cidadeRes">Cidade</label>
+                <input type="text" class="form-control" id="cidadeRes" placeholder="ex. São Paulo">
             </div>
             <div class="form-group">
                 <label for="estadoRes">Estado</label>
                 <input type="text" class="form-control" id="estadoRes" placeholder="UF">
             </div>
-            
+
             <h5>Contatos</h5>
             <hr>
             <div class="form-group">
@@ -67,9 +69,10 @@
                 <label for="email">Endereço de email</label>
                 <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
             </div>
-         
+
         </form>
-        <button type="button" class="btn btn-outline-success">Salvar</button>
+        <button type="button" onclick="salvar()" class="btn btn-outline-success">Salvar</button>
+        
 
     </div>
 

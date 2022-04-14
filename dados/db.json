@@ -1,5 +1,60 @@
 {
-    "pessoas":[
-        
-    ]
+  "pessoas": [
+    {
+      "nome": "Carol s",
+      "dataNasc": "1989-01-27",
+      "cidadeNat": "Curitiba",
+      "estadoNat": "PR",
+      "rua": "abc",
+      "numero": "115",
+      "cep": "89080888",
+      "cidadeRes": "indaial",
+      "estadoRes": "sc",
+      "telefone": "(47)98863-5605",
+      "email": "caroline.dallmann@capgemini.com",
+      "id": 1
+    },
+    {
+      "nome": "André",
+      "dataNasc": "1967-02-14",
+      "cidadeNat": "são paulo",
+      "estadoNat": "sp",
+      "rua": "abc",
+      "numero": "25",
+      "cep": "89060080",
+      "cidadeRes": "são paulo",
+      "estadoRes": "sp",
+      "telefone": "(47)98863-5689",
+      "email": "andre@gmail.com",
+      "id": 2
+    },
+    {
+      "nome": "",
+      "dataNasc": "",
+      "cidadeNat": "",
+      "estadoNat": "",
+      "rua": "",
+      "numero": "",
+      "cep": "",
+      "cidadeRes": "",
+      "estadoRes": "",
+      "telefone": "",
+      "email": "",
+      "id": 3
+    },
+    {
+      "nome": "",
+      "dataNasc": "",
+      "cidadeNat": "",
+      "estadoNat": "",
+      "rua": "",
+      "numero": "",
+      "cep": "",
+      "cidadeRes": "",
+      "estadoRes": "",
+      "telefone": "",
+      "email": "",
+      "id": 4
+    }
+  ]
 }

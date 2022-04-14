@@ -12,4 +12,42 @@ class Pessoa {
         this.telefone = telefone;
         this.email = email;
     }
+
+    create() {
+        fetch('http://localhost:3000/pessoas', {
+            method: "POST",
+            body: JSON.stringify(this),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+    }
+
+    update() {
+        fetch(`http://localhost:3000/pessoas/${this.id}`, {
+            method: "PUT",
+            body: JSON.stringify(this),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+    }
+
+    consultaPessoas(criaTabela) {
+        fetch('http://localhost:3000/pessoas')
+            .then(x => x.text())
+            .then(data => criaTabela(data))
+    }
+
+    consultaPessoasID(idPessoa, preencheForm) {
+        fetch(`http://localhost:3000/pessoas/${idPessoa}`)
+            .then(x => x.text())
+            .then(data => preencheForm(data))
+    }
+
+    delete(idPessoa) {
+        fetch(`http://localhost:3000/pessoas/${idPessoa}`, {
+            method: "DELETE"
+        })
+    }
 }
