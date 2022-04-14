@@ -1,7 +1,3 @@
-/* * {
-    margin: 0 !important;
-} */
-
 .material-icons-outlined {
     padding: 5px;
     cursor: pointer;
@@ -28,30 +24,24 @@
     background-image: linear-gradient(to top, #cad8f1 0%, #6991c7 100%);
 }
 
-.headTabela{
-    
+.headTabela {
     background-image: linear-gradient(to top, #cad8f1ad 0%, #6992c7ad 100%);
-
 }
-.container{
 
+.container {
     border-radius: 7px;
-   padding: 10px;
+    padding: 10px;
     margin: 10px;
-
 }
-.containerCadastro{
+
+.containerCadastro {
     background-image: linear-gradient(to top, #cad8f1ad 0%, #6992c7ad 100%);
-
 }
 
-.bodyForm{
+.bodyForm {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-wrap: nowrap;
     flex-direction: row;
 }
-
-
-

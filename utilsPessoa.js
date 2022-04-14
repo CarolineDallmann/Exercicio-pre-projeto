@@ -124,7 +124,6 @@ function excluir(id) {
 }
 
 //função validação com base nas regras
-
 function validaForm() {
     for (let regra of regras) {
         let input = document.querySelector(`#${regra.name}`)
@@ -138,7 +137,7 @@ function validaForm() {
     return true
 }
 
-//
+//faz a expansão do + na tabela
 function toggle(th) {
     let line = th.parentNode.nextElementSibling.style;
     if (line.display === "none") {
